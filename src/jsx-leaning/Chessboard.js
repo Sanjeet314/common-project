@@ -75,6 +75,7 @@ export default function Chessboard() {
               }
               elements.push(<div key={i} style={{ display: "flex" }}>{boxDiv}</div>)
             }
+            console.log(elements)
             return (
                 <>
                   {elements}
