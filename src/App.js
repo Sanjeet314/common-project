@@ -1,12 +1,12 @@
-import { useState } from "react";
-import Modal from "./components/Modal";
-import {Counter} from "./common-mistakes/number-2";
-import Chessboard from "./jsx-leaning/Chessboard";
-import Post from "./common-mistakes/number-1";
+import React, { useState, useEffect } from "react";
+import { ErrorBoundaryExample } from "./ErrorBoundary/ErrorBoundary";
+import SmartComponent from "./OopsApproach/components/SmartComponent";
 
 function App() {
   return (
-    <Post/>
+    <div className="App">
+      <SmartComponent />
+    </div>
   );
 }
 
